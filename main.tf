@@ -5,8 +5,9 @@ terraform {
       version = "~> 5.0"
     }
   }
+
   backend "s3" {
-    bucket = "my-terraform-state"
+    bucket = "cloudmastry-backend"
     key    = "ec2/terraform.tfstate"
     region = "us-east-1"
   }

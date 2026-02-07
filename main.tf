@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket = "cloudmastry-backend"
-    key    = "ec2/terraform.tfstate"
+    key    = "ec2-sat/terraform.tfstate"
     region = "us-east-1"
   }
 }
